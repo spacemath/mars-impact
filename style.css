@@ -1,0 +1,73 @@
+/* Element styles */
+
+body {
+	font-family: Verdana, 'DejaVu Sans', sans-serif;
+	background-image: url(../resources/images/mars-crater.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px 0px; 
+}
+
+h1 {
+	line-height: 120%;
+}
+
+a {
+	color: #ddd;
+}
+
+/* Main container */
+
+#container {
+	width: 906px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 12pt;
+	line-height: 150%;
+}
+
+/* Page divs */
+
+.highlight {
+	margin-bottom: 20px;
+	padding: 5px 25px 5px 25px;
+	background: rgba(40, 40, 40, 0.7);
+	color: #dd0;
+}
+
+#computation-code {
+	margin-bottom: 20px;
+}
+
+.left-col {
+	float: left;
+	width: 440px;
+}
+
+.right-col {
+	float: right;
+	width: 440px;
+}
+
+.clear {
+	clear: both;
+}
+
+.footnote {
+	font-size: 9pt;
+	line-height: 120%;
+}
+
+.preloader {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	top: 50%;
+	margin-left: -10px;
+	margin-top: -10px;
+	background-image: url(../resources/images/preloader-white.gif);
+}
+
+
