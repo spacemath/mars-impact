@@ -1,10 +1,7 @@
 # Edit then press shift-enter or swipe right
 
-#----Number formats and functions----#
-
-sci = (x) -> x.toExponential()
-commas = (x) -> x.toLocaleString()
-log10 = (x) -> log(x)/log(10)
+# Function definitions
+{sci, log10} = $blab.defs  #;
 
 #----Parameters----#
 
