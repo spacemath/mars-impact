@@ -36,7 +36,7 @@ sci E
 E/4.18e15
 
 # Estimated crater diameter (m)
-modelPi2 = 1.61 * 3.7 * D / (v*1000).pow(2) #;
+modelPi2 = 1.61 * 3.7 * D / vm.pow(2) #;
 modelPiD = 1.6 * (modelPi2).pow(-0.22) #;
 craterDiameter = modelPiD*(mass/3000).pow(1/3)
 
